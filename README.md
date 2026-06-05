@@ -39,7 +39,7 @@ Depending on the project requirements, these websites are built using a mix of t
 ## 🚀 How to Explore the Projects
 
 If you want to view or run any of these websites locally:
-
+```bash
 1.  **Clone this repository:**
 ```bash
     git clone https://github.com/mohammedshafrin/My-Projects/(Add project folder name)
