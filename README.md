@@ -41,17 +41,16 @@ Depending on the project requirements, these websites are built using a mix of t
 If you want to view or run any of these websites locally:
 
 1.  **Clone this repository:**
-```bash
+
     git clone https://github.com/mohammedshafrin/My-Projects/(Add project folder name)
-    ```
+
 2.  **Navigate into the repository:**
-```bash
+
     cd My-Project
-    ```
+
 3.  **Open a project:**
     Go into any specific project folder and open the `index.html` file in your preferred browser, or run it using a local development server (like VS Code Live Server).
 
----
 
 ## 📈 Roadmap & Future Updates
 I am constantly building and experimenting. New website concepts, full-stack integrations, and advanced UI elements will be continuously added to this repository.
