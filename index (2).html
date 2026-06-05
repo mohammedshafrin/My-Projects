@@ -1,0 +1,1248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LUXE MART — Premium Shopping</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500;600&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+  <!-- TOPBAR -->
+  <div class="topbar">
+    <span><i class="fas fa-truck me-2"></i>Free shipping on orders over $50</span>
+    <span>|</span>
+    <span><i class="fas fa-tag me-2"></i>Use code LUXE20 for 20% off</span>
+    <span>|</span>
+    <span><i class="fas fa-headset me-2"></i>24/7 Support</span>
+  </div>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg" id="mainNavbar">
+    <div class="container">
+      <a class="navbar-brand" href="#">LUXE<span>MART</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item"><a class="nav-link active" href="#hero">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#categories">Categories</a></li>
+          <li class="nav-item"><a class="nav-link" href="#trending">Products</a></li>
+          <li class="nav-item"><a class="nav-link" href="#brands">Brands</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+        <div class="search-bar d-none d-lg-flex">
+          <i class="fas fa-search"></i>
+          <input type="text" placeholder="Search products..." />
+        </div>
+        <div class="navbar-icons ms-3 d-flex align-items-center">
+          <a href="#"><i class="far fa-heart"></i></a>
+          <a href="#" style="position:relative"><i class="fas fa-shopping-bag"></i><span class="badge-cart">3</span></a>
+          <a href="#"><i class="far fa-user"></i></a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section id="hero">
+    <div class="hero-bg-pattern"></div>
+    <div class="hero-grid-lines"></div>
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6">
+          <div class="hero-badge">✦ New Collection 2025</div>
+          <h1 class="hero-title">
+            Discover <span class="gold">Premium</span><br>
+            <span class="stroke">Quality</span> &amp; Style
+          </h1>
+          <p class="hero-desc">
+            Curated collections of luxury goods, fashion essentials, and lifestyle products. Experience shopping
+            elevated to an art form.
+          </p>
+          <div class="d-flex flex-wrap gap-3" style="animation: fadeInUp 0.7s ease 0.3s both;">
+            <a href="#trending" class="btn-gold">Shop Now</a>
+            <a href="#categories" class="btn-outline-gold">Browse Categories</a>
+          </div>
+          <div class="hero-stats">
+            <div>
+              <div class="hero-stat-num">50K+</div>
+              <div class="hero-stat-label">Products</div>
+            </div>
+            <div>
+              <div class="hero-stat-num">200+</div>
+              <div class="hero-stat-label">Brands</div>
+            </div>
+            <div>
+              <div class="hero-stat-num">1M+</div>
+              <div class="hero-stat-label">Happy Customers</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="hero-visual">
+            <div class="hero-img-frame">
+              <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?w=800&q=80" alt="Hero Shopping" />
+              <div class="hero-img-overlay"></div>
+            </div>
+            <div class="hero-float-card left">
+              <div
+                style="font-size:0.7rem;color:var(--muted);margin-bottom:4px;letter-spacing:0.08em;text-transform:uppercase;">
+                Today's Deal</div>
+              <div style="font-family:'Playfair Display',serif;color:var(--white);font-size:0.95rem;">Summer Collection
+              </div>
+              <div style="color:var(--primary);font-size:0.85rem;font-weight:700;">Up to 40% OFF</div>
+            </div>
+            <div class="hero-float-card top">
+              <div style="display:flex;align-items:center;gap:8px;">
+                <div
+                  style="width:32px;height:32px;background:rgba(200,169,110,0.15);border-radius:50%;display:flex;align-items:center;justify-content:center;color:var(--primary)">
+                  <i class="fas fa-star" style="font-size:0.75rem"></i></div>
+                <div>
+                  <div style="color:var(--white);font-size:0.82rem;font-weight:600;">4.9 Rating</div>
+                  <div style="color:var(--muted);font-size:0.7rem;">12K+ Reviews</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MARQUEE BRANDS BAR -->
+  <div class="marquee-section">
+    <div class="marquee-track">
+      <span class="marquee-item">ARMANI</span><span class="marquee-dot">✦</span>
+      <span class="marquee-item">GUCCI</span><span class="marquee-dot">✦</span>
+      <span class="marquee-item">PRADA</span><span class="marquee-dot">✦</span>
+      <span class="marquee-item">VERSACE</span><span class="marquee-dot">✦</span>
+      <span class="marquee-item">BURBERRY</span><span class="marquee-dot">✦</span>
+      <span class="marquee-item">DIOR</span><span class="marquee-dot">✦</span>
+      <span class="marquee-item">CHANEL</span><span class="marquee-dot">✦</span>
+      <span class="marquee-item">LOUIS VUITTON</span><span class="marquee-dot">✦</span>
+      <span class="marquee-item">HERMES</span><span class="marquee-dot">✦</span>
+      <span class="marquee-item">BALENCIAGA</span><span class="marquee-dot">✦</span>
+      <!-- duplicate for seamless loop -->
+      <span class="marquee-item">ARMANI</span><span class="marquee-dot">✦</span>
+      <span class="marquee-item">GUCCI</span><span class="marquee-dot">✦</span>
+      <span class="marquee-item">PRADA</span><span class="marquee-dot">✦</span>
+      <span class="marquee-item">VERSACE</span><span class="marquee-dot">✦</span>
+      <span class="marquee-item">BURBERRY</span><span class="marquee-dot">✦</span>
+      <span class="marquee-item">DIOR</span><span class="marquee-dot">✦</span>
+      <span class="marquee-item">CHANEL</span><span class="marquee-dot">✦</span>
+      <span class="marquee-item">LOUIS VUITTON</span><span class="marquee-dot">✦</span>
+      <span class="marquee-item">HERMES</span><span class="marquee-dot">✦</span>
+      <span class="marquee-item">BALENCIAGA</span><span class="marquee-dot">✦</span>
+    </div>
+  </div>
+
+  <!-- PROMO STRIP -->
+  <div class="promo-strip">
+    <div class="container">
+      <div class="row justify-content-center g-0">
+        <div class="col-6 col-md-3">
+          <div class="promo-item">
+            <div class="promo-icon"><i class="fas fa-shipping-fast"></i></div>
+            <div class="promo-title">Free Shipping</div>
+            <div class="promo-desc">On orders over $50</div>
+          </div>
+        </div>
+        <div class="col-md-auto d-none d-md-block">
+          <div class="promo-divider"></div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="promo-item">
+            <div class="promo-icon"><i class="fas fa-undo-alt"></i></div>
+            <div class="promo-title">Easy Returns</div>
+            <div class="promo-desc">30-day return policy</div>
+          </div>
+        </div>
+        <div class="col-md-auto d-none d-md-block">
+          <div class="promo-divider"></div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="promo-item">
+            <div class="promo-icon"><i class="fas fa-shield-alt"></i></div>
+            <div class="promo-title">Secure Payments</div>
+            <div class="promo-desc">SSL encrypted checkout</div>
+          </div>
+        </div>
+        <div class="col-md-auto d-none d-md-block">
+          <div class="promo-divider"></div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="promo-item">
+            <div class="promo-icon"><i class="fas fa-headset"></i></div>
+            <div class="promo-title">24/7 Support</div>
+            <div class="promo-desc">Always here to help</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ABOUT US -->
+  <section id="about">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-5">
+          <div class="about-img-grid">
+            <div class="img-cell">
+              <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=600&q=80" alt="Store" />
+            </div>
+            <div class="img-cell" style="height:200px">
+              <img src="https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=400&q=80" alt="Products" />
+            </div>
+            <div class="img-cell" style="height:200px">
+              <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&q=80" alt="Service" />
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-7">
+          <div class="section-label">✦ Our Story</div>
+          <h2 class="section-title">We Redefine the<br>Shopping Experience</h2>
+          <div class="section-divider"></div>
+          <p style="color:var(--muted);font-size:0.92rem;line-height:1.9;margin-bottom:32px;">
+            Founded in 2018, LUXEMART was born from a passion to bring the world's finest products directly to your
+            doorstep. We partner with over 200 premium brands to curate an unmatched selection of fashion, electronics,
+            home goods, and lifestyle products — all under one roof.
+          </p>
+          <div class="about-feature">
+            <div class="about-feature-icon"><i class="fas fa-gem"></i></div>
+            <div>
+              <h6>Authentic Luxury Products</h6>
+              <p>Every item is 100% authentic, sourced directly from official brand distributors and verified suppliers.
+              </p>
+            </div>
+          </div>
+          <div class="about-feature">
+            <div class="about-feature-icon"><i class="fas fa-globe"></i></div>
+            <div>
+              <h6>Worldwide Delivery</h6>
+              <p>We ship to 120+ countries with express, standard, and tracked delivery options to suit your needs.</p>
+            </div>
+          </div>
+          <div class="about-feature">
+            <div class="about-feature-icon"><i class="fas fa-award"></i></div>
+            <div>
+              <h6>Award-Winning Service</h6>
+              <p>Recognized as the Best Online Retailer 2024 with over 1 million satisfied customers globally.</p>
+            </div>
+          </div>
+          <a href="#categories" class="btn-gold mt-3">Explore Collections</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CATEGORIES -->
+  <section id="categories">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-lg-6">
+          <div class="section-label">✦ Shop By Category</div>
+          <h2 class="section-title">Find What You Love</h2>
+          <div class="section-divider"></div>
+        </div>
+        <div class="col-lg-6 d-flex align-items-end justify-content-lg-end">
+          <a href="#" class="btn-outline-gold" style="padding:10px 28px;font-size:0.78rem;">View All Categories</a>
+        </div>
+      </div>
+      <div class="row g-4">
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="category-card">
+            <div class="category-img">
+              <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&q=80" alt="Watches" />
+              <div class="category-overlay"></div>
+            </div>
+            <div class="category-body">
+              <div>
+                <h5>Watches</h5><span>240 items</span>
+              </div>
+              <div class="category-arrow"><i class="fas fa-arrow-right"></i></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="category-card">
+            <div class="category-img">
+              <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&q=80" alt="Shoes" />
+              <div class="category-overlay"></div>
+            </div>
+            <div class="category-body">
+              <div>
+                <h5>Footwear</h5><span>385 items</span>
+              </div>
+              <div class="category-arrow"><i class="fas fa-arrow-right"></i></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="category-card">
+            <div class="category-img">
+              <img src="https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=400&q=80" alt="Bags" />
+              <div class="category-overlay"></div>
+            </div>
+            <div class="category-body">
+              <div>
+                <h5>Bags</h5><span>192 items</span>
+              </div>
+              <div class="category-arrow"><i class="fas fa-arrow-right"></i></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="category-card">
+            <div class="category-img">
+              <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=400&q=80" alt="Furniture" />
+              <div class="category-overlay"></div>
+            </div>
+            <div class="category-body">
+              <div>
+                <h5>Furniture</h5><span>120 items</span>
+              </div>
+              <div class="category-arrow"><i class="fas fa-arrow-right"></i></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="category-card">
+            <div class="category-img">
+              <img src="https://images.unsplash.com/photo-1498049794561-7780e7231661?w=400&q=80" alt="Electronics" />
+              <div class="category-overlay"></div>
+            </div>
+            <div class="category-body">
+              <div>
+                <h5>Electronics</h5><span>430 items</span>
+              </div>
+              <div class="category-arrow"><i class="fas fa-arrow-right"></i></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="category-card">
+            <div class="category-img">
+              <img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=400&q=80" alt="Beauty" />
+              <div class="category-overlay"></div>
+            </div>
+            <div class="category-body">
+              <div>
+                <h5>Beauty</h5><span>315 items</span>
+              </div>
+              <div class="category-arrow"><i class="fas fa-arrow-right"></i></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRENDING PRODUCTS (10 CARDS) -->
+  <section id="trending">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-lg-6">
+          <div class="section-label">✦ Hot Right Now</div>
+          <h2 class="section-title">Trending Products</h2>
+          <div class="section-divider"></div>
+        </div>
+        <div class="col-lg-6 d-flex align-items-end justify-content-lg-end">
+          <a href="#" class="btn-outline-gold" style="padding:10px 28px;font-size:0.78rem;">View All Products</a>
+        </div>
+      </div>
+      <div class="row g-4">
+
+        <!-- Product 1 -->
+        <div class="col-6 col-md-4 col-xl-3">
+          <div class="product-card">
+            <div class="product-img">
+              <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&q=80" alt="Luxury Watch" />
+              <div class="product-badges"><span class="badge-new">NEW</span></div>
+              <div class="product-actions">
+                <a href="#" class="action-btn"><i class="far fa-heart"></i></a>
+                <a href="#" class="action-btn"><i class="fas fa-eye"></i></a>
+                <a href="#" class="action-btn"><i class="fas fa-random"></i></a>
+              </div>
+            </div>
+            <div class="product-body">
+              <div class="product-cat">Watches</div>
+              <h5 class="product-name">Chronos Elite Pro Watch</h5>
+              <div class="product-rating">
+                <span class="stars">★★★★★</span>
+                <span class="rating-count">(128)</span>
+              </div>
+              <div class="product-price">
+                <span class="price-now">$299.00</span>
+                <span class="price-old">$420.00</span>
+              </div>
+              <a href="#" class="add-to-cart">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="col-6 col-md-4 col-xl-3">
+          <div class="product-card">
+            <div class="product-img">
+              <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&q=80" alt="Sneakers" />
+              <div class="product-badges"><span class="badge-sale">-30%</span></div>
+              <div class="product-actions">
+                <a href="#" class="action-btn"><i class="far fa-heart"></i></a>
+                <a href="#" class="action-btn"><i class="fas fa-eye"></i></a>
+                <a href="#" class="action-btn"><i class="fas fa-random"></i></a>
+              </div>
+            </div>
+            <div class="product-body">
+              <div class="product-cat">Footwear</div>
+              <h5 class="product-name">AirForce Urban Sneakers</h5>
+              <div class="product-rating">
+                <span class="stars">★★★★☆</span>
+                <span class="rating-count">(94)</span>
+              </div>
+              <div class="product-price">
+                <span class="price-now">$139.00</span>
+                <span class="price-old">$199.00</span>
+              </div>
+              <a href="#" class="add-to-cart">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="col-6 col-md-4 col-xl-3">
+          <div class="product-card">
+            <div class="product-img">
+              <img src="https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=400&q=80" alt="Bag" />
+              <div class="product-badges"><span class="badge-new">HOT</span></div>
+              <div class="product-actions">
+                <a href="#" class="action-btn"><i class="far fa-heart"></i></a>
+                <a href="#" class="action-btn"><i class="fas fa-eye"></i></a>
+                <a href="#" class="action-btn"><i class="fas fa-random"></i></a>
+              </div>
+            </div>
+            <div class="product-body">
+              <div class="product-cat">Bags</div>
+              <h5 class="product-name">Vogue Leather Tote Bag</h5>
+              <div class="product-rating">
+                <span class="stars">★★★★★</span>
+                <span class="rating-count">(211)</span>
+              </div>
+              <div class="product-price">
+                <span class="price-now">$189.00</span>
+                <span class="price-old">$260.00</span>
+              </div>
+              <a href="#" class="add-to-cart">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="col-6 col-md-4 col-xl-3">
+          <div class="product-card">
+            <div class="product-img">
+              <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&q=80" alt="Headphones" />
+              <div class="product-badges"><span class="badge-sale">-25%</span></div>
+              <div class="product-actions">
+                <a href="#" class="action-btn"><i class="far fa-heart"></i></a>
+                <a href="#" class="action-btn"><i class="fas fa-eye"></i></a>
+                <a href="#" class="action-btn"><i class="fas fa-random"></i></a>
+              </div>
+            </div>
+            <div class="product-body">
+              <div class="product-cat">Electronics</div>
+              <h5 class="product-name">SoundMax Pro Headphones</h5>
+              <div class="product-rating">
+                <span class="stars">★★★★★</span>
+                <span class="rating-count">(376)</span>
+              </div>
+              <div class="product-price">
+                <span class="price-now">$224.00</span>
+                <span class="price-old">$299.00</span>
+              </div>
+              <a href="#" class="add-to-cart">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 5 -->
+        <div class="col-6 col-md-4 col-xl-3">
+          <div class="product-card">
+            <div class="product-img">
+              <img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=400&q=80" alt="Perfume" />
+              <div class="product-badges"><span class="badge-new">NEW</span></div>
+              <div class="product-actions">
+                <a href="#" class="action-btn"><i class="far fa-heart"></i></a>
+                <a href="#" class="action-btn"><i class="fas fa-eye"></i></a>
+                <a href="#" class="action-btn"><i class="fas fa-random"></i></a>
+              </div>
+            </div>
+            <div class="product-body">
+              <div class="product-cat">Beauty</div>
+              <h5 class="product-name">Midnight Rose Perfume</h5>
+              <div class="product-rating">
+                <span class="stars">★★★★☆</span>
+                <span class="rating-count">(88)</span>
+              </div>
+              <div class="product-price">
+                <span class="price-now">$85.00</span>
+                <span class="price-old">$120.00</span>
+              </div>
+              <a href="#" class="add-to-cart">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 6 -->
+        <div class="col-6 col-md-4 col-xl-3">
+          <div class="product-card">
+            <div class="product-img">
+              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80" alt="Sunglasses" />
+              <div class="product-actions">
+                <a href="#" class="action-btn"><i class="far fa-heart"></i></a>
+                <a href="#" class="action-btn"><i class="fas fa-eye"></i></a>
+                <a href="#" class="action-btn"><i class="fas fa-random"></i></a>
+              </div>
+            </div>
+            <div class="product-body">
+              <div class="product-cat">Accessories</div>
+              <h5 class="product-name">Luxe Shield Sunglasses</h5>
+              <div class="product-rating">
+                <span class="stars">★★★★★</span>
+                <span class="rating-count">(145)</span>
+              </div>
+              <div class="product-price">
+                <span class="price-now">$149.00</span>
+                <span class="price-old">$210.00</span>
+              </div>
+              <a href="#" class="add-to-cart">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 7 -->
+        <div class="col-6 col-md-4 col-xl-3">
+          <div class="product-card">
+            <div class="product-img">
+              <img src="https://images.unsplash.com/photo-1585386959984-a4155224a1ad?w=400&q=80" alt="Skincare" />
+              <div class="product-badges"><span class="badge-sale">-20%</span></div>
+              <div class="product-actions">
+                <a href="#" class="action-btn"><i class="far fa-heart"></i></a>
+                <a href="#" class="action-btn"><i class="fas fa-eye"></i></a>
+                <a href="#" class="action-btn"><i class="fas fa-random"></i></a>
+              </div>
+            </div>
+            <div class="product-body">
+              <div class="product-cat">Skincare</div>
+              <h5 class="product-name">Gold Elixir Serum Set</h5>
+              <div class="product-rating">
+                <span class="stars">★★★★★</span>
+                <span class="rating-count">(263)</span>
+              </div>
+              <div class="product-price">
+                <span class="price-now">$64.00</span>
+                <span class="price-old">$80.00</span>
+              </div>
+              <a href="#" class="add-to-cart">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 8 -->
+        <div class="col-6 col-md-4 col-xl-3">
+          <div class="product-card">
+            <div class="product-img">
+              <img src="https://images.unsplash.com/photo-1491553895911-0055eca6402d?w=400&q=80" alt="Running Shoes" />
+              <div class="product-badges"><span class="badge-new">TREND</span></div>
+              <div class="product-actions">
+                <a href="#" class="action-btn"><i class="far fa-heart"></i></a>
+                <a href="#" class="action-btn"><i class="fas fa-eye"></i></a>
+                <a href="#" class="action-btn"><i class="fas fa-random"></i></a>
+              </div>
+            </div>
+            <div class="product-body">
+              <div class="product-cat">Sports</div>
+              <h5 class="product-name">CloudRun Elite Trainers</h5>
+              <div class="product-rating">
+                <span class="stars">★★★★☆</span>
+                <span class="rating-count">(182)</span>
+              </div>
+              <div class="product-price">
+                <span class="price-now">$119.00</span>
+                <span class="price-old">$160.00</span>
+              </div>
+              <a href="#" class="add-to-cart">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 9 -->
+        <div class="col-6 col-md-4 col-xl-3">
+          <div class="product-card">
+            <div class="product-img">
+              <img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=400&q=80" alt="Camera" />
+              <div class="product-badges"><span class="badge-sale">-15%</span></div>
+              <div class="product-actions">
+                <a href="#" class="action-btn"><i class="far fa-heart"></i></a>
+                <a href="#" class="action-btn"><i class="fas fa-eye"></i></a>
+                <a href="#" class="action-btn"><i class="fas fa-random"></i></a>
+              </div>
+            </div>
+            <div class="product-body">
+              <div class="product-cat">Electronics</div>
+              <h5 class="product-name">SnapMaster 4K Camera</h5>
+              <div class="product-rating">
+                <span class="stars">★★★★★</span>
+                <span class="rating-count">(97)</span>
+              </div>
+              <div class="product-price">
+                <span class="price-now">$599.00</span>
+                <span class="price-old">$699.00</span>
+              </div>
+              <a href="#" class="add-to-cart">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 10 -->
+        <div class="col-6 col-md-4 col-xl-3">
+          <div class="product-card">
+            <div class="product-img">
+              <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&q=80" alt="Jacket" />
+              <div class="product-badges"><span class="badge-new">NEW</span></div>
+              <div class="product-actions">
+                <a href="#" class="action-btn"><i class="far fa-heart"></i></a>
+                <a href="#" class="action-btn"><i class="fas fa-eye"></i></a>
+                <a href="#" class="action-btn"><i class="fas fa-random"></i></a>
+              </div>
+            </div>
+            <div class="product-body">
+              <div class="product-cat">Fashion</div>
+              <h5 class="product-name">Metro Leather Biker Jacket</h5>
+              <div class="product-rating">
+                <span class="stars">★★★★☆</span>
+                <span class="rating-count">(74)</span>
+              </div>
+              <div class="product-price">
+                <span class="price-now">$249.00</span>
+                <span class="price-old">$349.00</span>
+              </div>
+              <a href="#" class="add-to-cart">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- BEST SELLING (4 CARDS) -->
+  <section id="best-selling">
+    <div class="container">
+      <div class="text-center mb-5">
+        <div class="section-label">✦ Customer Favourites</div>
+        <h2 class="section-title">Best Selling Products</h2>
+        <div class="section-divider mx-auto"></div>
+      </div>
+      <div class="row g-4">
+
+        <div class="col-md-6 col-xl-3">
+          <div class="best-sell-card">
+            <div class="best-sell-img">
+              <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=300&q=80" alt="Watch" />
+            </div>
+            <div class="best-sell-body">
+              <div>
+                <span class="best-sell-tag">#1 Best Seller</span>
+                <h5 class="product-name mt-1">Chronos Elite Watch</h5>
+                <div class="product-rating mt-2">
+                  <span class="stars">★★★★★</span>
+                  <span class="rating-count">(1.2K)</span>
+                </div>
+                <p style="font-size:0.8rem;color:var(--muted);margin:8px 0 0;">The most sought-after timepiece of 2025,
+                  combining Swiss precision with modern design.</p>
+              </div>
+              <div class="mt-3">
+                <div class="product-price">
+                  <span class="price-now">$299.00</span>
+                  <span class="price-old">$420.00</span>
+                </div>
+                <a href="#" class="add-to-cart mt-2">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-xl-3">
+          <div class="best-sell-card">
+            <div class="best-sell-img">
+              <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=300&q=80" alt="Headphones" />
+            </div>
+            <div class="best-sell-body">
+              <div>
+                <span class="best-sell-tag">#2 Best Seller</span>
+                <h5 class="product-name mt-1">SoundMax Pro</h5>
+                <div class="product-rating mt-2">
+                  <span class="stars">★★★★★</span>
+                  <span class="rating-count">(984)</span>
+                </div>
+                <p style="font-size:0.8rem;color:var(--muted);margin:8px 0 0;">Industry-leading noise cancellation and
+                  40-hour battery life in a premium package.</p>
+              </div>
+              <div class="mt-3">
+                <div class="product-price">
+                  <span class="price-now">$224.00</span>
+                  <span class="price-old">$299.00</span>
+                </div>
+                <a href="#" class="add-to-cart mt-2">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-xl-3">
+          <div class="best-sell-card">
+            <div class="best-sell-img">
+              <img src="https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=300&q=80" alt="Bag" />
+            </div>
+            <div class="best-sell-body">
+              <div>
+                <span class="best-sell-tag">#3 Best Seller</span>
+                <h5 class="product-name mt-1">Vogue Leather Tote</h5>
+                <div class="product-rating mt-2">
+                  <span class="stars">★★★★★</span>
+                  <span class="rating-count">(842)</span>
+                </div>
+                <p style="font-size:0.8rem;color:var(--muted);margin:8px 0 0;">Full-grain Italian leather construction
+                  with gold hardware and custom lining.</p>
+              </div>
+              <div class="mt-3">
+                <div class="product-price">
+                  <span class="price-now">$189.00</span>
+                  <span class="price-old">$260.00</span>
+                </div>
+                <a href="#" class="add-to-cart mt-2">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-xl-3">
+          <div class="best-sell-card">
+            <div class="best-sell-img">
+              <img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=300&q=80" alt="Camera" />
+            </div>
+            <div class="best-sell-body">
+              <div>
+                <span class="best-sell-tag">#4 Best Seller</span>
+                <h5 class="product-name mt-1">SnapMaster 4K Camera</h5>
+                <div class="product-rating mt-2">
+                  <span class="stars">★★★★★</span>
+                  <span class="rating-count">(631)</span>
+                </div>
+                <p style="font-size:0.8rem;color:var(--muted);margin:8px 0 0;">Capture life in stunning 4K detail with
+                  10x optical zoom and AI autofocus.</p>
+              </div>
+              <div class="mt-3">
+                <div class="product-price">
+                  <span class="price-now">$599.00</span>
+                  <span class="price-old">$699.00</span>
+                </div>
+                <a href="#" class="add-to-cart mt-2">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- NEW ARRIVALS -->
+  <section id="new-arrivals">
+    <div class="container">
+      <div class="text-center mb-5">
+        <div class="section-label">✦ Fresh In Store</div>
+        <h2 class="section-title">New Arrivals</h2>
+        <div class="section-divider mx-auto"></div>
+      </div>
+      <div class="row g-4 align-items-center">
+        <div class="col-lg-5">
+          <div class="arrival-banner">
+            <div class="section-label">✦ Limited Edition Drop</div>
+            <h3 class="section-title" style="font-size:2rem;">Summer 2025<br>Collection is Here</h3>
+            <p style="color:var(--muted);font-size:0.9rem;line-height:1.8;margin-bottom:24px;">
+              Our exclusive summer collection drops this week. Be the first to explore hand-picked pieces crafted for
+              the modern lifestyle.
+            </p>
+            <div class="arrival-countdown">
+              <div class="countdown-box">
+                <span class="countdown-num">02</span>
+                <span class="countdown-label">Days</span>
+              </div>
+              <div class="countdown-box">
+                <span class="countdown-num">14</span>
+                <span class="countdown-label">Hours</span>
+              </div>
+              <div class="countdown-box">
+                <span class="countdown-num">38</span>
+                <span class="countdown-label">Mins</span>
+              </div>
+              <div class="countdown-box">
+                <span class="countdown-num">55</span>
+                <span class="countdown-label">Secs</span>
+              </div>
+            </div>
+            <a href="#" class="btn-gold">Explore Collection</a>
+          </div>
+        </div>
+        <div class="col-lg-7">
+          <div class="row g-3">
+            <div class="col-6">
+              <div class="product-card">
+                <div class="product-img">
+                  <img src="https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=400&q=80" alt="Dress" />
+                  <div class="product-badges"><span class="badge-new">JUST IN</span></div>
+                  <div class="product-actions">
+                    <a href="#" class="action-btn"><i class="far fa-heart"></i></a>
+                    <a href="#" class="action-btn"><i class="fas fa-eye"></i></a>
+                  </div>
+                </div>
+                <div class="product-body">
+                  <div class="product-cat">Women's Fashion</div>
+                  <h5 class="product-name">Soleil Summer Dress</h5>
+                  <div class="product-price"><span class="price-now">$89.00</span></div>
+                  <a href="#" class="add-to-cart">Add to Cart</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="product-card">
+                <div class="product-img">
+                  <img src="https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=400&q=80" alt="Shirt" />
+                  <div class="product-badges"><span class="badge-new">JUST IN</span></div>
+                  <div class="product-actions">
+                    <a href="#" class="action-btn"><i class="far fa-heart"></i></a>
+                    <a href="#" class="action-btn"><i class="fas fa-eye"></i></a>
+                  </div>
+                </div>
+                <div class="product-body">
+                  <div class="product-cat">Men's Fashion</div>
+                  <h5 class="product-name">Linen Breeze Shirt</h5>
+                  <div class="product-price"><span class="price-now">$65.00</span></div>
+                  <a href="#" class="add-to-cart">Add to Cart</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="product-card">
+                <div class="product-img">
+                  <img src="https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=400&q=80" alt="Sneaker" />
+                  <div class="product-badges"><span class="badge-new">JUST IN</span></div>
+                  <div class="product-actions">
+                    <a href="#" class="action-btn"><i class="far fa-heart"></i></a>
+                    <a href="#" class="action-btn"><i class="fas fa-eye"></i></a>
+                  </div>
+                </div>
+                <div class="product-body">
+                  <div class="product-cat">Footwear</div>
+                  <h5 class="product-name">Coastal Canvas Slip-Ons</h5>
+                  <div class="product-price"><span class="price-now">$79.00</span></div>
+                  <a href="#" class="add-to-cart">Add to Cart</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="product-card">
+                <div class="product-img">
+                  <img src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&q=80" alt="Backpack" />
+                  <div class="product-badges"><span class="badge-new">JUST IN</span></div>
+                  <div class="product-actions">
+                    <a href="#" class="action-btn"><i class="far fa-heart"></i></a>
+                    <a href="#" class="action-btn"><i class="fas fa-eye"></i></a>
+                  </div>
+                </div>
+                <div class="product-body">
+                  <div class="product-cat">Bags</div>
+                  <h5 class="product-name">Urban Trek Backpack</h5>
+                  <div class="product-price"><span class="price-now">$112.00</span></div>
+                  <a href="#" class="add-to-cart">Add to Cart</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BRANDS -->
+  <section id="brands">
+    <div class="container">
+      <div class="text-center mb-5">
+        <div class="section-label">✦ Our Partners</div>
+        <h2 class="section-title">Premium Brands We Carry</h2>
+        <div class="section-divider mx-auto"></div>
+        <p style="color:var(--muted);font-size:0.9rem;max-width:500px;margin:auto;">We partner exclusively with verified
+          premium brands to guarantee authenticity and quality in every product.</p>
+      </div>
+      <div class="row g-4">
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="brand-card">
+            <div class="brand-icon"><i class="fas fa-gem"></i></div>
+            <div class="brand-logo">Armani</div>
+            <div class="brand-tagline">Italian Luxury</div>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="brand-card">
+            <div class="brand-icon"><i class="fas fa-crown"></i></div>
+            <div class="brand-logo">Gucci</div>
+            <div class="brand-tagline">Fashion House</div>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="brand-card">
+            <div class="brand-icon"><i class="fas fa-star"></i></div>
+            <div class="brand-logo">Prada</div>
+            <div class="brand-tagline">Avant-Garde</div>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="brand-card">
+            <div class="brand-icon"><i class="fas fa-bolt"></i></div>
+            <div class="brand-logo">Versace</div>
+            <div class="brand-tagline">Bold & Iconic</div>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="brand-card">
+            <div class="brand-icon"><i class="fas fa-shield-alt"></i></div>
+            <div class="brand-logo">Burberry</div>
+            <div class="brand-tagline">British Heritage</div>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="brand-card">
+            <div class="brand-icon"><i class="fas fa-heart"></i></div>
+            <div class="brand-logo">Dior</div>
+            <div class="brand-tagline">Parisian Chic</div>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="brand-card">
+            <div class="brand-icon"><i class="fas fa-feather"></i></div>
+            <div class="brand-logo">Chanel</div>
+            <div class="brand-tagline">Timeless Elegance</div>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="brand-card">
+            <div class="brand-icon"><i class="fas fa-infinity"></i></div>
+            <div class="brand-logo">LV</div>
+            <div class="brand-tagline">Louis Vuitton</div>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="brand-card">
+            <div class="brand-icon"><i class="fas fa-horse"></i></div>
+            <div class="brand-logo">Hermès</div>
+            <div class="brand-tagline">Craftsmanship</div>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="brand-card">
+            <div class="brand-icon"><i class="fas fa-tshirt"></i></div>
+            <div class="brand-logo">Balenciaga</div>
+            <div class="brand-tagline">Streetwear Luxury</div>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="brand-card">
+            <div class="brand-icon"><i class="fas fa-glasses"></i></div>
+            <div class="brand-logo">Tom Ford</div>
+            <div class="brand-tagline">Modern Luxury</div>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="brand-card">
+            <div class="brand-icon"><i class="fas fa-fire"></i></div>
+            <div class="brand-logo">Off-White</div>
+            <div class="brand-tagline">Streetwear Icon</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section id="testimonials">
+    <div class="container">
+      <div class="text-center mb-5">
+        <div class="section-label">✦ What Customers Say</div>
+        <h2 class="section-title">Real Reviews, Real People</h2>
+        <div class="section-divider mx-auto"></div>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="testimonial-card">
+            <div class="testimonial-quote">"</div>
+            <p class="testimonial-text">LUXEMART has completely changed how I shop. The quality is unmatched and
+              delivery was faster than expected. I'm a customer for life!</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">S</div>
+              <div>
+                <div class="author-name">Sarah Mitchell</div>
+                <div class="author-title">Fashion Blogger · New York</div>
+              </div>
+            </div>
+            <div class="stars mt-3">★★★★★</div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="testimonial-card">
+            <div class="testimonial-quote">"</div>
+            <p class="testimonial-text">I bought the SoundMax headphones and was blown away. Genuine product, fantastic
+              packaging and the customer support team was very helpful.</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">J</div>
+              <div>
+                <div class="author-name">James Chen</div>
+                <div class="author-title">Tech Enthusiast · San Francisco</div>
+              </div>
+            </div>
+            <div class="stars mt-3">★★★★★</div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="testimonial-card">
+            <div class="testimonial-quote">"</div>
+            <p class="testimonial-text">The luxury bag I ordered arrived in perfect condition, beautifully wrapped.
+              Authenticity was verified and the whole experience felt truly premium.</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">A</div>
+              <div>
+                <div class="author-name">Amina Hassan</div>
+                <div class="author-title">Lifestyle Influencer · Dubai</div>
+              </div>
+            </div>
+            <div class="stars mt-3">★★★★★</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEWSLETTER -->
+  <div class="newsletter-section">
+    <div class="container">
+      <div class="row align-items-center g-4">
+        <div class="col-lg-6">
+          <div class="section-label">✦ Stay In The Loop</div>
+          <h2 class="section-title" style="font-size:2rem;">Get Exclusive Deals<br>& Early Access</h2>
+          <p style="color:var(--muted);font-size:0.9rem;">Subscribe to our newsletter and be the first to know about new
+            arrivals, sales, and special offers.</p>
+        </div>
+        <div class="col-lg-6">
+          <div class="newsletter-input-group mb-3">
+            <input type="email" placeholder="Enter your email address..." />
+            <button>Subscribe</button>
+          </div>
+          <p style="font-size:0.78rem;color:#555;"><i class="fas fa-lock me-2"></i>No spam, ever. Unsubscribe at any
+            time.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container">
+      <div class="text-center mb-5">
+        <div class="section-label">✦ Get In Touch</div>
+        <h2 class="section-title">Contact Us</h2>
+        <div class="section-divider mx-auto"></div>
+        <p style="color:var(--muted);font-size:0.9rem;max-width:500px;margin:auto;">Have a question or need help? Our
+          team is here for you 24/7. Reach out through any channel below.</p>
+      </div>
+      <div class="row g-5">
+        <div class="col-lg-5">
+          <div class="contact-info-item">
+            <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div>
+              <h6>Our Address</h6>
+              <p>123 Luxe Avenue, Fashion District<br>New York, NY 10001, USA</p>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-icon"><i class="fas fa-phone-alt"></i></div>
+            <div>
+              <h6>Phone Support</h6>
+              <p>+1 (800) 123-4567<br>Mon–Sat: 9AM – 8PM EST</p>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+            <div>
+              <h6>Email Us</h6>
+              <p>support@luxemart.com<br>We reply within 24 hours</p>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-icon"><i class="fas fa-clock"></i></div>
+            <div>
+              <h6>Working Hours</h6>
+              <p>Monday – Saturday: 9:00 AM – 8:00 PM<br>Sunday: 10:00 AM – 6:00 PM</p>
+            </div>
+          </div>
+          <div class="mt-4">
+            <h6 style="color:var(--white);margin-bottom:14px;">Follow Us</h6>
+            <div class="footer-social">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-tiktok"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-7">
+          <div class="contact-form">
+            <h4 style="color:var(--white);margin-bottom:24px;">Send Us a Message</h4>
+            <div class="row g-3">
+              <div class="col-md-6">
+                <label class="form-label">First Name</label>
+                <input type="text" class="form-control" placeholder="John" />
+              </div>
+              <div class="col-md-6">
+                <label class="form-label">Last Name</label>
+                <input type="text" class="form-control" placeholder="Doe" />
+              </div>
+              <div class="col-md-6">
+                <label class="form-label">Email Address</label>
+                <input type="email" class="form-control" placeholder="john@example.com" />
+              </div>
+              <div class="col-md-6">
+                <label class="form-label">Phone Number</label>
+                <input type="tel" class="form-control" placeholder="+1 (555) 000-0000" />
+              </div>
+              <div class="col-12">
+                <label class="form-label">Subject</label>
+                <input type="text" class="form-control" placeholder="How can we help you?" />
+              </div>
+              <div class="col-12">
+                <label class="form-label">Message</label>
+                <textarea class="form-control" placeholder="Write your message here..."></textarea>
+              </div>
+              <div class="col-12">
+                <a href="#" class="btn-gold" style="width:100%;text-align:center;display:block;padding:14px;">
+                  <i class="fas fa-paper-plane me-2"></i>Send Message
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="row g-5">
+        <div class="col-lg-4 col-md-6">
+          <div class="footer-brand">LUXE<span>MART</span></div>
+          <p class="footer-desc">
+            Your premier destination for authentic luxury goods, fashion, and lifestyle products. Elevating everyday
+            shopping since 2018.
+          </p>
+          <div class="footer-social">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-tiktok"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-pinterest"></i></a>
+          </div>
+          <div class="mt-4">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Visa_Inc._logo.svg" alt="Visa" height="22"
+              style="filter:brightness(0.5) invert(1);margin-right:10px;opacity:0.6;">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Mastercard-logo.svg" alt="MC" height="28"
+              style="filter:brightness(0.5) invert(1);margin-right:10px;opacity:0.6;">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg" alt="PayPal" height="22"
+              style="filter:brightness(0) invert(1);opacity:0.5;">
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-6">
+          <div class="footer-heading">Shop</div>
+          <ul class="footer-links">
+            <li><a href="#"><i class="fas fa-chevron-right"></i> New Arrivals</a></li>
+            <li><a href="#"><i class="fas fa-chevron-right"></i> Best Sellers</a></li>
+            <li><a href="#"><i class="fas fa-chevron-right"></i> Trending Now</a></li>
+            <li><a href="#"><i class="fas fa-chevron-right"></i> Sale Items</a></li>
+            <li><a href="#"><i class="fas fa-chevron-right"></i> Gift Cards</a></li>
+            <li><a href="#"><i class="fas fa-chevron-right"></i> Lookbook</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-3 col-6">
+          <div class="footer-heading">Categories</div>
+          <ul class="footer-links">
+            <li><a href="#"><i class="fas fa-chevron-right"></i> Fashion</a></li>
+            <li><a href="#"><i class="fas fa-chevron-right"></i> Electronics</a></li>
+            <li><a href="#"><i class="fas fa-chevron-right"></i> Beauty</a></li>
+            <li><a href="#"><i class="fas fa-chevron-right"></i> Footwear</a></li>
+            <li><a href="#"><i class="fas fa-chevron-right"></i> Bags</a></li>
+            <li><a href="#"><i class="fas fa-chevron-right"></i> Watches</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-3 col-6">
+          <div class="footer-heading">Support</div>
+          <ul class="footer-links">
+            <li><a href="#"><i class="fas fa-chevron-right"></i> FAQ</a></li>
+            <li><a href="#"><i class="fas fa-chevron-right"></i> Track Order</a></li>
+            <li><a href="#"><i class="fas fa-chevron-right"></i> Returns</a></li>
+            <li><a href="#"><i class="fas fa-chevron-right"></i> Size Guide</a></li>
+            <li><a href="#"><i class="fas fa-chevron-right"></i> Shipping Info</a></li>
+            <li><a href="#contact"><i class="fas fa-chevron-right"></i> Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-3 col-6">
+          <div class="footer-heading">Company</div>
+          <ul class="footer-links">
+            <li><a href="#about"><i class="fas fa-chevron-right"></i> About Us</a></li>
+            <li><a href="#"><i class="fas fa-chevron-right"></i> Careers</a></li>
+            <li><a href="#"><i class="fas fa-chevron-right"></i> Press</a></li>
+            <li><a href="#"><i class="fas fa-chevron-right"></i> Affiliates</a></li>
+            <li><a href="#"><i class="fas fa-chevron-right"></i> Privacy Policy</a></li>
+            <li><a href="#"><i class="fas fa-chevron-right"></i> Terms of Use</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr class="footer-divider" />
+      <div class="row align-items-center">
+        <div class="col-md-6 footer-bottom">
+          © 2025 <a href="#">LUXEMART</a>. All rights reserved. Designed with ♥
+        </div>
+        <div class="col-md-6 footer-bottom text-md-end mt-2 mt-md-0">
+          <a href="#" class="me-3">Privacy Policy</a>
+          <a href="#" class="me-3">Terms of Service</a>
+          <a href="#">Cookie Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
